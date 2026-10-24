@@ -4,6 +4,10 @@ window.RESUPERCK_CONFIG = Object.freeze({
   version: "1.4.0",
   telegramUrl: "https://t.me/+5vmAXVRWfHNkZTM0",
   contactTelegramUrl: "https://t.me/supernaturalizm",
+  // Public receiving links supplied by the account owner.
+  revolutUrl: null,
+  monobankUrl: null,
+  boostyUrl: null,
   releaseUrl: "https://github.com/kluchkoartem3-hash/resuperck-boost/releases/download/v1.4.0/ResuperckBoost-Setup-1.4.0.exe",
   // Set a verified Formspree /f/<id> URL or a configured same-origin contact route.
   contactEndpoint: null,

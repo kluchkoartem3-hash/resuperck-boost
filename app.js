@@ -124,6 +124,36 @@
   const privacy = makeDialog(document.getElementById("privacy-dialog"), document.getElementById("privacy-close"));
   document.getElementById("privacy-button").addEventListener("click", privacy.open);
   document.getElementById("privacy-done").addEventListener("click", privacy.close);
+  const support = makeDialog(document.getElementById("support-dialog"), document.getElementById("support-close"));
+  document.getElementById("support-open").addEventListener("click", event => {
+    event.preventDefault();
+    support.open();
+  });
+  const receivingLinks = [
+    { key: "revolutUrl", id: "revolut", hosts: ["revolut.me"] },
+    { key: "monobankUrl", id: "monobank", hosts: ["send.monobank.ua"] },
+    { key: "boostyUrl", id: "boosty", hosts: ["boosty.to"] },
+  ];
+  let connectedMethods = 0;
+  for (const method of receivingLinks) {
+    const row = document.getElementById(`support-${method.id}`);
+    const link = row.querySelector("a");
+    const status = row.querySelector(".method-status");
+    const url = publicUrl(config[method.key]);
+    if (url && method.hosts.includes(new URL(url).hostname) && new URL(url).pathname !== "/") {
+      row.hidden = false;
+      link.href = url;
+      link.hidden = false;
+      status.hidden = true;
+      connectedMethods += 1;
+    } else {
+      row.hidden = true;
+      link.hidden = true;
+      link.removeAttribute("href");
+      status.hidden = false;
+    }
+  }
+  document.querySelector(".support-methods").hidden = connectedMethods === 0;
   const lightbox = makeDialog(document.getElementById("screenshot-dialog"), document.getElementById("screenshot-close"));
   const lightboxImage = document.getElementById("screenshot-image");
   document.querySelectorAll(".screenshot-button").forEach(button => {
