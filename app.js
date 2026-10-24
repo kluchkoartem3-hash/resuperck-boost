@@ -17,8 +17,7 @@
       return url.protocol === "https:" ? url.href : fallback;
     } catch (_) { return fallback; }
   }
-  const telegramUrl = publicUrl(config.telegramUrl, "https://t.me/+5vmAXVRWfHNkZTM0");
-  document.querySelectorAll(".telegram-link").forEach(link => { link.href = telegramUrl; });
+  const supportShareUrl = "https://resuperck.pages.dev/#support";
   document.querySelectorAll(".contact-telegram-link").forEach(link => {
     link.href = publicUrl(config.contactTelegramUrl, "https://t.me/supernaturalizm");
   });
@@ -63,7 +62,7 @@
     const field = document.createElement("textarea");
     field.value = text;
     field.readOnly = true;
-    field.setAttribute("aria-label", "Ссылка на канал поддержки");
+    field.setAttribute("aria-label", "Ссылка на раздел поддержки");
     Object.assign(field.style, { position: "fixed", top: "0", left: "0", width: "1px", height: "1px", opacity: "0", pointerEvents: "none" });
     const focus = document.activeElement;
     document.body.append(field);
@@ -82,14 +81,14 @@
     copyButton.disabled = true;
     let copied = false;
     try {
-      if (navigator.clipboard && window.isSecureContext) { await navigator.clipboard.writeText(telegramUrl); copied = true; }
+      if (navigator.clipboard && window.isSecureContext) { await navigator.clipboard.writeText(supportShareUrl); copied = true; }
     } catch (_) {}
-    if (!copied) copied = copyFallback(telegramUrl);
+    if (!copied) copied = copyFallback(supportShareUrl);
     copyButton.disabled = false;
     clearTimeout(copyReset);
     copyButton.querySelector("span").textContent = copied ? "Ссылка скопирована" : "Не удалось скопировать";
     copyButton.querySelector("use").setAttribute("href", copied ? "#i-check" : "#i-copy");
-    notify(copied ? "Ссылка на канал скопирована." : "Копирование запрещено браузером. Адрес можно скопировать через меню ссылки «Реквизиты в Telegram».");
+    notify(copied ? "Ссылка на раздел поддержки скопирована." : "Копирование запрещено браузером. Ссылка на поддержку: " + supportShareUrl);
     copyReset = setTimeout(() => {
       copyButton.querySelector("span").textContent = "Скопировать ссылку";
       copyButton.querySelector("use").setAttribute("href", "#i-copy");

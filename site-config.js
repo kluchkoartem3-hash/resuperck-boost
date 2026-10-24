@@ -2,7 +2,6 @@
 window.RESUPERCK_CONFIG = Object.freeze({
   brand: "Resuperck Boost",
   version: "1.4.0",
-  telegramUrl: "https://t.me/+5vmAXVRWfHNkZTM0",
   contactTelegramUrl: "https://t.me/supernaturalizm",
   // Public receiving links supplied by the account owner.
   revolutUrl: "https://revolut.me/misha_collins",
