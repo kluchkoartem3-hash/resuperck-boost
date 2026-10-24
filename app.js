@@ -182,7 +182,9 @@
   } else {
     form.hidden = false;
     document.getElementById("contact-unavailable").hidden = true;
-    document.getElementById("privacy-contact-text").textContent = "Форма связи передаёт указанную почту, тему и текст сообщения через подключённый сервис доставки разработчику для ответа. Не указывайте секретные сведения.";
+    document.getElementById("privacy-contact-text").textContent = isFormspree
+      ? "Форма связи передаёт указанную почту, тему и текст сообщения через Formspree разработчику для ответа. Не указывайте секретные сведения."
+      : "Форма связи передаёт указанную почту, тему и текст сообщения через подключённый сервис доставки разработчику для ответа. Не указывайте секретные сведения.";
     formStatus("");
   }
   form.addEventListener("submit", async event => {

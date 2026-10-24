@@ -5,7 +5,7 @@ Maintainer and publisher / Разработчик и издатель: **Resuper
 - Website / Сайт: https://resuperck.pages.dev/
 - Repository / Репозиторий: https://github.com/kluchkoartem3-hash/resuperck-boost
 - Releases / Выпуски: https://github.com/kluchkoartem3-hash/resuperck-boost/releases
-- Contact / Связь: https://t.me/supernaturalizm
+- Contact / Связь: https://resuperck.pages.dev/#contact
 
 The application retains its existing copyright notices, including:
 

@@ -8,6 +8,6 @@ window.RESUPERCK_CONFIG = Object.freeze({
   monobankUrl: "https://send.monobank.ua/jar/6yam17A1py",
   boostyUrl: "https://boosty.to/resuperck/donate",
   releaseUrl: "https://github.com/kluchkoartem3-hash/resuperck-boost/releases/download/v1.4.0/ResuperckBoost-Setup-1.4.0.exe",
-  // Set a verified Formspree /f/<id> URL or a configured same-origin contact route.
-  contactEndpoint: null,
+  // Public Formspree endpoint; the verified recipient is stored in Formspree.
+  contactEndpoint: "https://formspree.io/f/xdeekreq",
 });

@@ -9,6 +9,7 @@ A free app for Windows 10 / 11 x64 that brings PC hardware information, Windows 
 - [Application source code and build instructions](https://github.com/kluchkoartem3-hash/resuperck-boost/releases/download/v1.4.0/ResuperckBoost-1.4.0-sources.zip)
 - [Release notes and checksums](https://github.com/kluchkoartem3-hash/resuperck-boost/releases/tag/v1.4.0)
 - [Publisher, official sources and file verification](AUTHORSHIP.md)
+- [Contact the developer](https://resuperck.pages.dev/#contact)
 
 ![Resuperck Boost hardware overview](assets/screenshots/overview.png)
 

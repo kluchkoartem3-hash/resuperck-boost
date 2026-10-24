@@ -9,6 +9,7 @@
 - [Исходники программы и инструкции сборки](https://github.com/kluchkoartem3-hash/resuperck-boost/releases/download/v1.4.0/ResuperckBoost-1.4.0-sources.zip)
 - [Описание релиза и контрольные суммы](https://github.com/kluchkoartem3-hash/resuperck-boost/releases/tag/v1.4.0)
 - [Издатель, официальные источники и проверка файла](AUTHORSHIP.md)
+- [Написать разработчику через сайт](https://resuperck.pages.dev/#contact)
 
 ![Обзор оборудования в Resuperck Boost](assets/screenshots/overview.png)
 
@@ -20,7 +21,7 @@
 
 Основной сайт опубликован в Cloudflare Pages, проект `resuperck`, режим Direct Upload. Для обновления загрузите ZIP с файлами сайта в корне через новую публикацию проекта. Установщик и исходники приложения остаются в GitHub Releases. Копия на GitHub Pages обновляется из `main`; публикация в Cloudflare выполняется отдельно. Сборка и установка зависимостей для сайта не требуются.
 
-Публичные настройки находятся в `site-config.js`: `brand`, `version`, `contactTelegramUrl`, `releaseUrl` и `contactEndpoint`. Пока `contactEndpoint` равен `null`, форма скрыта и доступна связь через Telegram. Отправка писем требует подключённого обработчика или сервиса форм. Установщик и архив исходников хранятся в Releases; при новом релизе обновляйте ссылки в `site-config.js` и `index.html`.
+Публичные настройки находятся в `site-config.js`: `brand`, `version`, `contactTelegramUrl`, `releaseUrl` и `contactEndpoint`. Обратная связь подключена к Formspree через публичный endpoint `https://formspree.io/f/xdeekreq`; подтверждённый адрес получателя хранится в кабинете сервиса. Форма отправляет email для ответа, тему и сообщение. Пароли почты и API-ключи в сайт не включаются. При `contactEndpoint: null` форма скрывается и доступен резервный контакт в Telegram. Установщик и архив исходников хранятся в Releases; при новом релизе обновляйте ссылки в `site-config.js` и `index.html`.
 
 В окне поддержки доступны настроенные публичные ссылки `revolutUrl` (Revolut.me), `monobankUrl` (Банка на send.monobank.ua) и `boostyUrl` (страница автора на boosty.to). Значение `null` скрывает соответствующий способ. Ссылки на реквизиты в Telegram удалены; кнопка копирования даёт адрес раздела поддержки сайта. Карточные данные и банковские секреты сайт не собирает.
 
