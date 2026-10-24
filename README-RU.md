@@ -4,7 +4,7 @@
 
 Бесплатное приложение для Windows 10 / 11 x64: информация о компьютере, настройки Windows, игровые профили и графические инструменты в одном интерфейсе.
 
-- [Сайт](https://kluchkoartem3-hash.github.io/resuperck-boost/)
+- [Сайт](https://resuperck.pages.dev/)
 - [Скачать 1.4.0 для Windows](https://github.com/kluchkoartem3-hash/resuperck-boost/releases/download/v1.4.0/ResuperckBoost-Setup-1.4.0.exe)
 - [Исходники программы и инструкции сборки](https://github.com/kluchkoartem3-hash/resuperck-boost/releases/download/v1.4.0/ResuperckBoost-1.4.0-sources.zip)
 - [Описание релиза и контрольные суммы](https://github.com/kluchkoartem3-hash/resuperck-boost/releases/tag/v1.4.0)
@@ -17,7 +17,7 @@
 
 ## Для разработчика сайта
 
-Сайт статический, сборка и установка зависимостей не требуются. Публикация: Settings → Pages → Deploy from a branch → `main` → `/(root)`. Файл `.nojekyll` отключает обработку Jekyll.
+Основной сайт опубликован в Cloudflare Pages, проект `resuperck`, режим Direct Upload. Для обновления загрузите ZIP с файлами сайта в корне через новую публикацию проекта. Установщик и исходники приложения остаются в GitHub Releases. Копия на GitHub Pages обновляется из `main`; публикация в Cloudflare выполняется отдельно. Сборка и установка зависимостей для сайта не требуются.
 
 Публичные настройки находятся в `site-config.js`: `brand`, `version`, `telegramUrl`, `contactTelegramUrl`, `releaseUrl` и `contactEndpoint`. Пока `contactEndpoint` равен `null`, форма скрыта и доступна связь через Telegram. Отправка писем требует подключённого обработчика или сервиса форм. Установщик и архив исходников хранятся в Releases; при новом релизе обновляйте ссылки в `site-config.js` и `index.html`.
 
