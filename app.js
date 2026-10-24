@@ -1,4 +1,3 @@
-/* Public links, browser-local theme and accessible website interactions. */
 (() => {
   "use strict";
   const config = window.RESUPERCK_CONFIG || {};
