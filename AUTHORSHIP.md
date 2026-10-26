@@ -19,20 +19,20 @@ Forks and mirrors are distinct from releases published by this project. Please i
 
 Исходники сохраняют действующие уведомления MIT; зависимости — собственные лицензии. Этот документ не запрещает разрешённое ими копирование и не меняет условия. Форки и зеркала следует отличать от официальных выпусков и указывать происхождение и изменения.
 
-## Verify the 1.4.0 installer / Проверка установщика 1.4.0
+## Verify the 1.4.1 installer / Проверка установщика 1.4.1
 
-File: `ResuperckBoost-Setup-1.4.0.exe`
+File: `ResuperckBoost-Setup-1.4.1.exe`
 
 SHA-256:
 
 ```text
-d23c96db7ec6287db9403da9bd0f4e2e1f4d442ddbe53a0009df128e280ac256
+4580012076f0719b8b15fb2b844b71c372babef38cc370e652d74537f4716f1f
 ```
 
 In PowerShell, from the download directory:
 
 ```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath '.\ResuperckBoost-Setup-1.4.0.exe'
+Get-FileHash -Algorithm SHA256 -LiteralPath '.\ResuperckBoost-Setup-1.4.1.exe'
 ```
 
 Compare the result with the checksum on the official release page. A matching hash confirms identical bytes; it does not prevent copying or establish who hosts the file.
