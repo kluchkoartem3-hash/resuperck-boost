@@ -26,7 +26,7 @@ File: `ResuperckBoost-Setup-1.4.1.exe`
 SHA-256:
 
 ```text
-4580012076f0719b8b15fb2b844b71c372babef38cc370e652d74537f4716f1f
+d11859f3ce563a70f55ae6b7fa88d747c46329c76a51b08fb4b8ece0ccefacd0
 ```
 
 In PowerShell, from the download directory:
