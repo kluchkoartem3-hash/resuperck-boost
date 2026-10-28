@@ -1,19 +1,22 @@
-# Resuperck Boost
+# Resuperck Tools
 
 [English](README.md)
 
 Бесплатное приложение для Windows 10 / 11 x64: информация о компьютере, настройки Windows, игровые профили и графические инструменты в одном интерфейсе.
 
 - [Сайт](https://resuperck.pages.dev/)
-- [Скачать 1.4.1 для Windows](https://github.com/kluchkoartem3-hash/resuperck-boost/releases/download/v1.4.1/ResuperckBoost-Setup-1.4.1.exe)
-- [Исходники программы и инструкции сборки](https://github.com/kluchkoartem3-hash/resuperck-boost/releases/download/v1.4.1/ResuperckBoost-1.4.1-sources.zip)
-- [Описание релиза и контрольные суммы](https://github.com/kluchkoartem3-hash/resuperck-boost/releases/tag/v1.4.1)
+- [Обновления в Telegram](https://t.me/Resuperck_Tools)
+- [Скачать 1.5.0 для Windows](https://github.com/kluchkoartem3-hash/resuperck-tools/releases/download/v1.5.0/ResuperckTools-Setup-1.5.0.exe)
+- [Исходники программы и инструкции сборки](https://github.com/kluchkoartem3-hash/resuperck-tools/releases/download/v1.5.0/ResuperckTools-1.5.0-sources.zip)
+- [Описание релиза и контрольные суммы](https://github.com/kluchkoartem3-hash/resuperck-tools/releases/tag/v1.5.0)
 - [Издатель, официальные источники и проверка файла](AUTHORSHIP.md)
 - [Написать разработчику через сайт](https://resuperck.pages.dev/#contact)
 
-![Обзор оборудования в Resuperck Boost](assets/screenshots/overview.png)
+![Обзор оборудования в Resuperck Tools](assets/screenshots/overview.png)
 
-В 1.4.1 доступны помощник с отдельными сообщениями в чате, шрифт Inter во всём интерфейсе и подключение внешнего лаунчера Melty. Облачному помощнику не нужна загрузка модели; бесплатная квота общая, а обычная справка доступна без сети. Помощник не управляет ПК. Игру и готовый мод вы выбираете в каталоге Melty — универсального создания коопа или объединения любых игр по кнопке нет.
+Resuperck Tools — новое название Resuperck Boost. В 1.5.0 добавлены управление поддерживаемыми записями автозагрузки и выборочное удаление пакетных приложений Windows текущего пользователя. Сохранённые записи запуска можно восстановить; системные зависимости защищены от удаления. Резервная копия данных приложений не создаётся, а повторная установка зависит от доступности пакета.
+
+Также доступны профили игр, графические инструменты DLSS/NR, отдельный SCSKiller для подготовки шейдеров, настройки NVIDIA, помощник и подключение внешнего Melty. Бесплатная облачная квота помощника общая; справка работает без сети. Помощник не управляет ПК. Игру и готовый мод выбирают в каталоге Melty; универсальная генерация коопа не реализована.
 
 Скриншот использует демонстрационные данные. Графические функции зависят от игры и оборудования; в играх с ограничениями античита используйте штатные настройки.
 

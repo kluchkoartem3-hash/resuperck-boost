@@ -1,10 +1,10 @@
-# Resuperck Boost — official sources / официальные источники
+# Resuperck Tools — official sources / официальные источники
 
 Maintainer and publisher / Разработчик и издатель: **Resuperck**.
 
 - Website / Сайт: https://resuperck.pages.dev/
-- Repository / Репозиторий: https://github.com/kluchkoartem3-hash/resuperck-boost
-- Releases / Выпуски: https://github.com/kluchkoartem3-hash/resuperck-boost/releases
+- Repository / Репозиторий: https://github.com/kluchkoartem3-hash/resuperck-tools
+- Releases / Выпуски: https://github.com/kluchkoartem3-hash/resuperck-tools/releases
 - Contact / Связь: https://resuperck.pages.dev/#contact
 
 The application retains its existing copyright notices, including:
@@ -19,20 +19,20 @@ Forks and mirrors are distinct from releases published by this project. Please i
 
 Исходники сохраняют действующие уведомления MIT; зависимости — собственные лицензии. Этот документ не запрещает разрешённое ими копирование и не меняет условия. Форки и зеркала следует отличать от официальных выпусков и указывать происхождение и изменения.
 
-## Verify the 1.4.1 installer / Проверка установщика 1.4.1
+## Verify the 1.5.0 installer / Проверка установщика 1.5.0
 
-File: `ResuperckBoost-Setup-1.4.1.exe`
+File: `ResuperckTools-Setup-1.5.0.exe`
 
 SHA-256:
 
 ```text
-d11859f3ce563a70f55ae6b7fa88d747c46329c76a51b08fb4b8ece0ccefacd0
+be3b41613af4177ce626f10dcf160751c7c53e0021140d4ad5a0b3049827249a
 ```
 
 In PowerShell, from the download directory:
 
 ```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath '.\ResuperckBoost-Setup-1.4.1.exe'
+Get-FileHash -Algorithm SHA256 -LiteralPath '.\ResuperckTools-Setup-1.5.0.exe'
 ```
 
 Compare the result with the checksum on the official release page. A matching hash confirms identical bytes; it does not prevent copying or establish who hosts the file.

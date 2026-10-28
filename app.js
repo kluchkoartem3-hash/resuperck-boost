@@ -20,6 +20,9 @@
   document.querySelectorAll(".contact-telegram-link").forEach(link => {
     link.href = publicUrl(config.contactTelegramUrl, "https://t.me/supernaturalizm");
   });
+  document.querySelectorAll(".project-telegram-link").forEach(link => {
+    link.href = publicUrl(config.projectTelegramUrl, "https://t.me/Resuperck_Tools");
+  });
   const releaseUrl = publicUrl(config.releaseUrl);
   document.querySelectorAll(".download-link").forEach(link => {
     if (releaseUrl) link.href = releaseUrl;
